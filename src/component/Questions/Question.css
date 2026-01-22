@@ -1,0 +1,160 @@
+
+/* main cotiner  */
+.Question{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 90px;
+    
+    width: 100%;
+    height: 400px;
+    background:white;
+    background-size: cover;
+    color:black;
+    padding: 100px;  
+}    
+
+
+/* book open and paragraphe  and button left */
+.bttn_top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+    padding: 10px ;
+    
+    
+    
+}    
+
+.BookOpen{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    border:1px red solid ;
+    background: rgba(0, 0, 255, 0.493);
+    padding: 20px;
+    
+}    
+
+.book{
+    background:aquamarine;
+    padding: 10px;
+    /* top:50%;
+    transform: translateY(-50%); */
+
+}
+
+.bttn_top p{color:aquamarine}
+
+
+
+/* namber of question on top-right */
+.bttn_top button{
+
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 255, 0.493);
+}
+
+
+
+/* question  */
+.the_qustion{
+    color:black
+}
+
+
+/* options */
+
+ul {
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+}    
+
+
+li {
+    position: relative;
+    padding: 15px;
+    padding-left: 40px;
+    border: 2px black solid;
+    margin: 12px 0;
+    cursor: pointer;
+} 
+
+/* color of choice */
+li.active{background: #4a902a;}
+li.active::before{background:rgba(0, 0, 0, 0.712);
+   border :2px rgb(169, 25, 25) solid;
+
+}
+ 
+/* circle on answer */
+li::before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: 2px solid #444;
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    top:50%;
+    transform:translateY(-50%);
+}    
+
+
+li:hover{
+    transform: scale(1.01);
+        border: 2px solid #0887bd;
+
+    
+}    
+
+
+
+/* arrow on down_left to next question */
+
+.move{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    color: black;
+    padding: 10px 0;
+    
+}
+
+.next_quest,.last_quest{
+    text-align: center;
+    width: 50px;
+    color:black;
+    background: rgba(0, 128, 0, 0.628);
+    border: 1px black solid;
+    padding: 5px;
+    cursor: pointer;
+    
+    
+}    
+
+.next_quest:hover,.last_quest:hover{
+    transform: scale(1.05);
+    background: blue;
+    
+}    
+
+
+.last_quest{
+   
+    background: rgba(0, 45, 128, 0.779)
+
+}

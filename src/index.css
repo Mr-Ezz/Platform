@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color:black;
+  
+    min-height: 100%;
+  background-image: url(./component/packgroun3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+/* first page  login*/
+.login{text-align: center;}
+
+
+/* input  */
+.InputFiled{
+  margin: 10px;
+  padding:1px;
+  display: inline-block;
+  position: relative;
+
+}
+
+.InputFiled .icon{
+  color:green;
+  position:absolute;
+  top:50%;
+  left:3px;
+  transform:translateY(-50%) ;
+
+}
+
+.InputFiled input{
+  color: black;
+  height: 30px;
+  border: 1px rgb(148, 97, 97) solid;
+  padding-left: 30px;
+  font-size: large;
+}
+
+
+/* role */
+
+.role{ 
+  position: relative;
+  display: flex;width: 100%;
+  align-items: center;
+justify-content: center;}
+ 
+/* chose student */
+.role .Student{
+  color:red;
+  border: 2px black solid;
+  background: white;
+  margin: 10px;
+  width: 30%;
+  
+
+}
+
+
+/* role teacher */
+.role .Teacher{
+  color:rgb(0, 255, 119);
+  border: 2px black solid;
+  background: white;
+  margin: 10px;
+  width: 30%;
+
+}
+
+.role .Teacher:hover,.role .Student:hover{
+  background: green;cursor: pointer;
+}
+
+.button{background: blue;
+  display: block;
+  max-height: 40px;
+  width: 40%;
+  margin: 20px auto;
+}
+
+.button button{
+  width: 100%;
+  height: 40px;
+  background: blue;
+color:white;
+border: none;
+}
+

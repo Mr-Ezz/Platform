@@ -1,0 +1,131 @@
+.icon-home{
+    color: white;
+    width: 28px;
+    height: 28px;
+    position: fixed;
+    border: 1px  black  solid;
+    top:5px;
+    left: 30px;
+    padding: 10px;
+    background: #ff4d4d;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.icon-home:hover{
+    background: #ff1a1acf;
+    transform: scale(1.1);
+}
+
+
+
+.TeacherHome{
+
+    text-align: center;
+    background-image:url(./background_teach.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.Dashbord{ 
+    height: auto;
+    border: 2px #ddd solid;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 30px ;
+    background: linear-gradient(rgb(218, 88, 88),rgb(49, 49, 174),rgb(95, 239, 95));
+
+
+}
+
+.Dashbord .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-size: 36px;
+}
+.Dashbord p{margin-top: 10px;color:#666}
+
+
+
+.logout_but{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background:#ff4d4d;
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    right: 10%;
+    transition: 0.2s;
+}
+.logout_but:hover{background:red ;}
+
+
+
+
+
+.wellcome{
+    height: 170px;
+    background: linear-gradient(rgb(62, 62, 188),rgba(3, 72, 3, 0.66),red);
+    color: white;
+    border-radius: 50px;
+}
+
+.wellcome h4{color: #f0f0f0;margin: 10px;}
+
+
+
+
+
+
+
+.doing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin: 20px;
+    gap: 20px;
+
+}
+
+.doing .view,
+.doing .Manage,
+.doing .View_Results{
+        background: white;
+        border: 2px #dddd solid;
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow:0 4px 10px ;
+
+
+}
+
+.doing .Manage:hover ,
+.doing .view:hover,
+.doing .View_Results:hover
+{
+transform: translateY(-5px);
+background:wheat ;
+        
+}
+
+
+
+
+.icon_top{
+    color:black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+   background:rgba(0, 0, 255, 0.135) ;
+   
+}
+
